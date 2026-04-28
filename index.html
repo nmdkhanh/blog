@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thu Vũ Tửu Quán</title>
+  <meta name="description" content="Blog cá nhân về trà, văn chương, kiếm đạo và những ghi chép tĩnh lặng." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="page-shell">
+    <div class="ink-orb ink-orb-left"></div>
+    <div class="ink-orb ink-orb-right"></div>
+
+    <header class="site-header">
+      <div class="brand-lockup">
+        <span class="brand-mark">印</span>
+        <div>
+          <p class="eyebrow">Nhật ký sơn thủy</p>
+          <a href="#top" class="brand-name">Thu Vũ Tửu Quán</a>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <a href="#hero" class="nav-link active">Trang chủ</a>
+        <a href="#latest" class="nav-link">Tùy bút</a>
+        <a href="#library" class="nav-link">Tủ sách</a>
+        <a href="#about" class="nav-link">Giới thiệu</a>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Mở menu">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero-section" id="hero">
+        <div class="hero-backdrop"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <div class="seal-block">
+            <span>Thu</span>
+            <span>Vũ</span>
+            <span>Tửu</span>
+            <span>Quán</span>
+          </div>
+
+          <div class="hero-copy">
+            <p class="hero-kicker">🌊</p>
+            <h1>Nhân sinh như mộng.</h1>
+            <p class="hero-lead">
+              Ghi lại chút suy nghĩ cá nhân.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#latest" class="primary-btn">Đọc bài viết</a>
+            </div>
+
+            <ul class="hero-metrics">
+              <li>
+                <strong id="postCount">00</strong>
+                <span>bài viết</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="floating-note">
+          <p class="note-label"></p>
+          <p class="note-text">Mưa rào mùa thu, uống cốc bia mát, ăn đùi gà chiên.</p>
+        </div>
+      </section>
+
+      <section class="section latest-section" id="latest">
+        <div class="section-heading">
+          <div>
+            <h2>Bài viết gần đây</h2>
+          </div>
+        </div>
+
+        <div class="article-grid" id="latestPosts"></div>
+      </section>
+
+      <section class="section library-section" id="library">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Reading list</p>
+            <h2>Tủ sách nên đọc</h2>
+          </div>
+          <div class="shelf-controls">
+            <button class="shelf-btn" id="shelfPrev" type="button" aria-label="Cuộn trái">
+              ←
+            </button>
+            <button class="shelf-btn" id="shelfNext" type="button" aria-label="Cuộn phải">
+              →
+            </button>
+          </div>
+        </div>
+
+        <div class="book-shelf" id="bookShelf"></div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="about-card reveal">
+          <div>
+            <p class="eyebrow">Giới thiệu</p>
+            <h2>Viết linh tinh, tản mạn cho bớt suy nghĩ</h2>
+          </div>
+          <p>
+
+          </p>
+          <form class="subscribe-form">
+            <input type="email" placeholder="Nhập email nếu muốn ghé lại" />
+            <button type="submit">Đăng ký</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Blog cá nhân.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "thu-vu-tuu-quan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal blog served by a small Node.js HTTP server.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

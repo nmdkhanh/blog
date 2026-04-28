@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: thu-vu-tuu-quan
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: "node server.js"
